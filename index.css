@@ -1,0 +1,137 @@
+body{ 
+    background-color: rgb(65, 65, 65);
+} 
+.bottom{
+    background-color: rgb(22, 22, 22);
+    
+}  
+.navbar{
+    background-color: rgb(65, 65, 65);
+}
+.navbar-nav .nav-link {
+    color: rgb(211, 210, 210);
+    font-size: 1.5rem;
+}
+.navbar-nav:hover {
+    color: white;
+}
+.title{
+    color: rgb(255, 255, 255);    
+}
+.nav_icon{
+    font-size: 1.5rem;
+}
+.nav_icon:hover{
+    color: rgb(255, 196, 4);
+    cursor: pointer;
+}
+.my_icons{
+color: white;
+}
+.col-lg-4{
+    color: white;
+    height: 400px;
+   
+}
+.my_icon ,.show{
+    color:rgb(255, 196, 4); 
+}
+.my_icon{
+    font-size: 1.5rem;
+}
+.abdullah{
+    border-bottom: 6px solid rgb(255, 196, 4);
+    border-radius:  5px 5px;
+    padding-bottom: 1rem;
+}
+.about{
+    justify-content: space-around;
+}
+.about_icon,.service_icon{
+    cursor: pointer;
+    
+}
+.about_icon:hover,.service_icon:hover{
+    color: rgb(255, 230, 150);
+}
+.image{
+    height: 100px;
+}
+.card_content{
+    margin-left: 2rem;
+    color: white;
+}
+.my_cardicon{
+    font-size: 2rem;
+    color:rgb(255, 196, 4); 
+}
+.my_card{
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+.brands{
+    justify-content: space-around;
+    width: 90%;
+}
+.col-lg-2{
+    display: flex;
+    text-align: center;
+    color: white;
+    align-items: center;
+    /* justify-content: space-between; */
+    justify-content: center;
+}
+.meta_img{
+    height: 3.5rem;
+    cursor: pointer;
+}
+.google_img{
+    height: 2.2rem;
+    cursor: pointer;
+}
+.linkedin_img{
+    height: 2.2rem;
+    cursor: pointer;
+}
+.slack_img{
+height: 2.5rem;
+cursor: pointer;
+}
+.brands{
+    border-radius: 0.5rem 0.5rem;
+    background-color: #4f4e4e;
+}
+.brand_item{
+    background-color: #333333; 
+    border-radius: 0.3rem 0.3rem;
+}
+.skills_card{
+    justify-content: space-between;
+    color: white;
+}
+.skill_icon{
+    color:rgb(255, 196, 4) ;
+    font-size: 2rem;
+    border-radius: 0;
+    width: 30%;
+}
+.skill_icon:hover{
+    transform: translateY(-0.5rem);
+    cursor: pointer;
+    transition: all ease-in-out 200ms;
+}
+.col-lg-3{
+   background-color: #4f4e4e;
+   border-radius: 1rem 1rem;
+}
+.col-lg-11{
+    justify-content: space-between;
+}
+.circle{
+    background-color: rgb(46, 46, 46);
+    border-radius: 100%;
+    position: absolute;
+    z-index: -1;
+    width: 450px;
+    height: 450px;
+}
